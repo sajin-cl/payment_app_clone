@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+ font-family: 'Poppins', sans-serif;
+  font-size: 13px;
+  color: white;
+  background-color: black;
+  }
+  .header-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.964);
+  padding: 15px 20px 15px 10px;
+  height: 30px;
+  position: sticky;
+}
+.header-div {
+  display: grid;
+  grid-template-columns: 30px 60px 1fr;
+  align-items: center;
+  font-size: 12px;
+
+}
+img {
+  border-radius: 50%;
+  height: 35px;
+  border: 1px solid grey;
+}
+.profile-info {
+  text-align: center;
+  padding-top: 30px;  
+
+}
+.payment-box {
+  width: 200px;
+  height: 75px;
+  background-color: #202124;
+  padding: 16px;
+  border: none;
+  border-radius: 20px;
+  float: right;
+  margin-top: 40px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+ 
+}
+
+.payment-box-amount {
+  font-size: 1.4rem;
+  margin: 10px;
+}
+
+.payment-box-paid-details {
+  display: flex;
+  justify-content: space-between;
+  margin-top:20px;
+  font-size: 8px;
+   
+}
+
+.profile-info-contact {
+  font-size:8px ;
+  margin-top: 3px;
+  color: #F1F3F4;
+}
+
+.profile-info-date {
+  font-size:7px ;
+  margin-top: 3px;
+  color: gray;
+}
