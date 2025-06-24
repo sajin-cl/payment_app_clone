@@ -25,7 +25,6 @@ body {
   height: 30px;
   border-bottom: 1px solid black;
   position: fixed;
-  /* Keep it at the top */
   top: 0;
   left: 0;
   right: 0;
@@ -52,6 +51,19 @@ img {
 
 }
 
+
+.profile-info-contact {
+  font-size: 8px;
+  margin-top: 3px;
+  color: #F1F3F4;
+}
+
+.profile-info-date {
+  font-size: 7px;
+  margin-top: 3px;
+  color: gray;
+}
+
 .payment-section {
   display: flex;
   flex-direction: column;
@@ -60,7 +72,7 @@ img {
 
 }
 
-.payment-box {
+.sender-payment-box {
   width: 200px;
   height: 75px;
   background-color: #202124;
@@ -69,8 +81,21 @@ img {
   border-radius: 20px;
   margin-top: 40px;
   margin-left: auto;
-  margin-bottom: 20px;
   margin-right: 10px;
+  margin-bottom: 20px;
+
+}
+.receiver-payment-box {
+  width: 200px;
+  height: 75px;
+  background-color: #202124;
+  padding: 16px;
+  border: none;
+  border-radius: 20px;
+  margin-top: 40px;
+  margin-left: 10px;
+  margin-right:auto ;
+  margin-bottom: 20px;
 
 }
 
@@ -87,17 +112,7 @@ img {
 
 }
 
-.profile-info-contact {
-  font-size: 8px;
-  margin-top: 3px;
-  color: #F1F3F4;
-}
 
-.profile-info-date {
-  font-size: 7px;
-  margin-top: 3px;
-  color: gray;
-}
 
 .footer-btn {
   display: grid;
@@ -136,3 +151,4 @@ img {
   font-size: 12px;
 
 }
+
