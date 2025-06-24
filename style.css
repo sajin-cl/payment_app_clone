@@ -101,14 +101,14 @@ img {
 
 .footer-btn {
   display: grid;
-  grid-template-columns: 45px 70px 1fr;
+  grid-template-columns: 50px 70px 1fr;
   column-gap: 10px;
   margin-left: 10px;
   margin-right: 30px;
   padding: 10px;
   position: fixed;
   background-color: black;
-  width: 95%;
+  width: 97%;
   bottom: 0;
   z-index: 10;
 
@@ -117,11 +117,11 @@ img {
 .pay-btn,
 .req-btn {
   border: none;
-  border-radius: 10px;
+  border-radius: 20px;
   padding: 5px 6px;
   background-color: skyblue;
-  font-size: 8px;
-  height: 20px;
+  font-size: 12px;
+  height: 40px;
   align-self: center;
   text-align: center;
 
@@ -130,10 +130,11 @@ img {
 
 .message-input {
   border: none;
-  border-radius: 10px;
-  padding: 5px 6px;
+  border-radius: 15px;
+  padding: 5px 20px;
   background-color: #202124;
   color: grey;
-  font-size: 8px;
-  position: relative;
+ text-align: start;
+  font-size: 12px;
+ 
 }
