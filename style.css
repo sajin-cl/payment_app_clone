@@ -134,7 +134,15 @@ img {
   padding: 5px 20px;
   background-color: #202124;
   color: grey;
- text-align: start;
+  text-align: start;
   font-size: 12px;
- 
+
+}
+
+@media screen and (min-width:100px) {
+  .footer-btn {
+    width: 95%;
+    margin-right: 30px;
+  }
+
 }
