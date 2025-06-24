@@ -105,7 +105,7 @@ img {
   column-gap: 10px;
   padding: 5px;
   position: fixed;
-  background-color:black;
+  background-color: black;
   width: 99%;
   bottom: 0;
   z-index: 10;
@@ -132,7 +132,7 @@ img {
   padding: 5px 20px;
   background-color: #202124;
   color: grey;
- text-align: start;
+  text-align: start;
   font-size: 12px;
- 
+
 }
