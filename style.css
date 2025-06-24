@@ -103,12 +103,10 @@ img {
   display: grid;
   grid-template-columns: 50px 70px 1fr;
   column-gap: 10px;
-  margin-left: 10px;
-  margin-right: 30px;
-  padding: 10px;
+  padding: 5px;
   position: fixed;
-  background-color: black;
-  width: 97%;
+  background-color:black;
+  width: 99%;
   bottom: 0;
   z-index: 10;
 
@@ -134,15 +132,7 @@ img {
   padding: 5px 20px;
   background-color: #202124;
   color: grey;
-  text-align: start;
+ text-align: start;
   font-size: 12px;
-
-}
-
-@media screen and (min-width:100px) {
-  .footer-btn {
-    width: 95%;
-    margin-right: 30px;
-  }
-
+ 
 }
